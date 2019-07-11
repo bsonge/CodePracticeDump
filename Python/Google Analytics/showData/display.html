@@ -1,0 +1,81 @@
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+<style>
+  #newsApp .news-container {
+    border: 2px solid black;
+    height: 90vh;
+    width: 90%;
+    border-radius: 5px;
+    overflow: scroll;
+    padding-left: 0;
+  }
+
+  #newsApp .news-container>a {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: 100px 6em auto;
+    align-items: center;
+    border: 1px solid black;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    color: #222222;
+    text-decoration: none;
+  }
+
+  #newsApp a:hover {
+    background-color: #f7e0a6;
+  }
+
+  #newsApp a:visited {
+    color: #330d5b;
+  }
+
+  #newsApp .newsimg {
+    display:inline-block;
+    height: 100px;
+    width: 100px;zz
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:white;
+  }
+
+  .cloak {
+    opacity: 1 !important;
+  }
+
+  .news-container {
+    opacity: 0;
+    -moz-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    -webkit-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
+  }
+
+
+  } */
+</style>
+<h2>NCS<sup>4</sup> Articles</h2>
+<div id='newsApp' ng-app="myApp" ng-controller="newsCtrl">
+  SEARCH: <input ng-model='sifter' />
+  <p></p>
+  <div ng-show>
+    <img style="width: 300px; height: auto; display: block; margin: auto;" src="https://higherlogicdownload.s3.amazonaws.com/NCS4/9c6c4d55-e531-4334-a8e4-aa15c3ebd848/UploadedImages/Flat%20Icons/Loadingsome.gif" alt="loading">
+  </div>
+  <div class="news-container" ng-class="{cloak:true}">
+
+    <div ng-repeat="x in newslist | filter : sifter" >
+      <!-- <span class="imgplaceholder" ng-if="!x.img"></span> -->
+      <strong style="display: inline-block; color: #1b93c3; width: 6em;">{{x.date}}
+        </strong>
+        <span class="newstitle">{{x.title}}</span>
+    </div>
+  </div>
+
+</div>
+
+<script src="newsList.js"></script>

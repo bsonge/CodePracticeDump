@@ -1,0 +1,18 @@
+Accept-Ranges: none
+Age: 233
+Cache-Control: public, max-age=3600
+Content-Encoding: gzip
+Content-Type: text/html; charset=utf-8
+Date: Wed, 03 Oct 2018 15:12:08 GMT
+Etag: "1538579527"
+Expires: Sun, 11 Mar 1984 12:00:00 GMT
+Last-Modified: Wed, 03 Oct 2018 15:12:07 +0000
+Server: nginx
+Vary: Cookie,Accept-Encoding
+Via: varnish
+X-Ah-Environment: prod
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Content-Type-Options: nosniff
+X-Frame-Options: SameOrigin
+X-Request-Id: v-b1bf23dc-c71e-11e8-899a-22000a5fe527

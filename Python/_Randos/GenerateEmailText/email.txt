@@ -1,0 +1,32 @@
+Welcome to the Technology Alliance Portal!
+
+<p>As discussed at the recent Technology Alliance meeting, we will be utilizing Microsoft Teams for Alliance members to be able to have direct communication between members, host chats, and to serve as a repository of info (best practices, white papers, etc). 
+</p>
+
+<p>
+To log into your organization’s account, please go to https://teams.microsoft.com/ and enter the information below.  If you have already logged into a Microsoft account, please log out then sign in with the following info.
+</p>
+
+<p>The User name should be your company name with the extension @ncs4.com.
+</p>
+
+<p>User name: {email}
+Temporary password: {password}
+</p>
+
+<p>Once you have logged in, please follow the instructions the browser gives you in order to update your password and set up a recovery email and/or phone number. 
+</p>
+
+<p>Your logins will consist of the above primary organization account and 5 guest accounts, which will serve as your personal MS Teams accounts.  Your listed point of contact will be receiving your guest account login shortly.
+</p>
+
+<p>These are your proposed guest accounts:</p>
+
+<ul>
+<li>{poc} (Point of Contact)</li>
+{clist}
+</ul>
+
+<p>{confirmation}
+</p>
+

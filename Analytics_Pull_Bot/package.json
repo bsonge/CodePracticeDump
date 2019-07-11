@@ -1,0 +1,22 @@
+{
+  "name": "analytics_pull_bot",
+  "version": "1.0.0",
+  "description": "Pulls google analytics data and generates a report.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncs4usm/Analytics_Pull_Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ncs4usm/Analytics_Pull_Bot/issues"
+  },
+  "homepage": "https://github.com/ncs4usm/Analytics_Pull_Bot#readme",
+  "dependencies": {
+    "googleapis": "^40.0.0"
+  }
+}

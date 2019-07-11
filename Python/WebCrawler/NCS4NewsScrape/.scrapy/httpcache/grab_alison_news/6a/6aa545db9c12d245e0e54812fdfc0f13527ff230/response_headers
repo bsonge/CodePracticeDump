@@ -1,0 +1,13 @@
+Accept-Ranges: none
+Age: 1175690
+Cache-Control: max-age=1209600
+Content-Type: text/plain
+Date: Wed, 19 Sep 2018 00:14:36 GMT
+Expires: Wed, 03 Oct 2018 00:14:36 GMT
+Last-Modified: Tue, 25 Jul 2017 12:19:39 GMT
+Server: nginx
+Via: varnish
+X-Ah-Environment: prod
+X-Cache: HIT
+X-Cache-Hits: 2526
+X-Request-Id: v-fdc8eb52-bba0-11e8-8c19-22000a5fe527
